@@ -22,7 +22,7 @@
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#skills" class="menu-btn">Skills</a></li>               
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
             <div class="menu-btn">
@@ -37,7 +37,7 @@
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Dwarkesh Dubey</div>
                 <div class="text-3">And I'm a <span class="typing"></span></div>
-                <a href="#">Get in Touch</a>
+                <a href="#contact">Get in Touch</a>
             </div>
         </div>
     </section>
@@ -62,48 +62,14 @@
             </div>
         </div>
     </section>
-    <!-- services section start
-    <section class="services" id="services">
-        <div class="max-width">
-            <h2 class="title"> Why Aiforkids is best for learning AI?
-            </h2>
-            <div class="serv-content">
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-paint-brush"></i>
-                        <div class="text">AI for CBSE Students</div>
-                        <p>Everyone can learn AI
-                            AI CBSE curriculum from Aiforkids for an Easy and Simple learning while giving priority to the school Syllabus..</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-chart-line"></i>
-                        <div class="text">Animated Video Lectures
-                            Easy to Understand</div>
-                        <p>Visualizing with animations to get even more better learning results and hence making AI Learning Simple.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-code"></i>
-                        <div class="text">Practice, Discuss and Ask</div>
-                        <p>Practice worksheets and quizzes from Aiforkids Knowledge Base or ask them and get verified answers.</p>
-                    </div>
-                </div>
-               </div>
-            </div>
-        </div>
-    </section> -->
-    
+    <!-- skills section start -->
     <section class="skills" id="skills"> 
         <div class="max-width">
             <h2 class="title">MY SKILLS</h2>
             <div class="skills-content">
                 <div class="column left">
                     <!-- Example content -->
-                    
-
+                </div>
                 <div class="column right">
                     <div class="bars">
                         <div class="info">
@@ -144,43 +110,14 @@
             </div>
         </div>
     </section>
-    
-    
-    <!-- <section class="teams" id="teams">
-        <div class="max-width">
-            <h2 class="title">CEO's On Artificial Intelligence
-            </h2>
-            <div class="carousel owl-carousel">
-                <div class="card">
-                    <div class="box">
-                        <img src="bajaj.jpg" alt="">
-                        <div class="text">Tarun Chugh, CEO, Bajaj</div>
-                        <p>Generative AI opens endless possibilities, but its true strength lies in translating potential into solutions that center around the customer .</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="google.jpg" alt="">
-                        <div class="text">SUNDAR PICHAI CEO Google</div>
-                        <p>"AI is probably the most important thing humanity has ever worked on. I think of it as something more profound than electricity or fire".</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="ibm.jpg" alt="">
-                        <div class="text">ARVIND KRISHNA CEO IBM</div>
-                        <p>I firmly believe that India can lead the AI technology revolution. India has the world’s largest community of developers, a large startup ecosystem, and a strong scientific and engineering culture.</p>
-                    </div>
-                </div>
-                
-    </section> -->
+    <!-- contact section start -->
     <section class="contact" id="contact">
         <div class="max-width">
             <h2 class="title">Contact Me</h2>
             <div class="contact-content">
                 <div class="column left">
                     <div class="text"> Get in Touch</div>
-                    <p>You can contact us at the following mails to get an instant reply, In the worst case it may take 10 hours and in the best case it may take 5 to 10 mins for the reply.</p>
+                    <p>You can contact us at the following mails to get an instant reply. In the worst case, it may take 10 hours and in the best case, it may take 5 to 10 mins for the reply.</p>
                     <div class="icons">
                         <div class="row">
                             <i class="fas fa-user"></i>
@@ -200,43 +137,46 @@
                             <i class="fas fa-envelope"></i>
                             <div class="info">
                                 <div class="head">Email</div>
-                                <div class="sub-title">
-                                    <li><a href="dwarkeshdubey05@gmail.com" ></a></li>
-
-
-                                    </li> dwarkeshdubey05@gmail.com </div>
+                                <div class="sub-title">dwarkeshdubey05@gmail.com</div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="column right">
                     <div class="text">Message Us</div>
-                    <form action="#">
+                    <form action="https://formsubmit.co/el/vetewo" method="POST">
                         <div class="fields">
-                            <!-- <div class="field name"> -->
-                                <!-- <input type="text" placeholder="Team" required> -->
-                            <!-- </div> -->
+                            <div class="field name">
+                                <input type="text" name="name" placeholder="Your Name" required>
+                            </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" name="email" placeholder="Your Email" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" name="_subject" placeholder="Subject" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea name="message" cols="30" rows="10" placeholder="Message.." required></textarea>
                         </div>
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="box">
+                        <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html">
                         <div class="button-area">
                             <button type="submit">Send message</button>
                         </div>
                     </form>
+                    <script>
+                        document.querySelector("form").addEventListener("submit", function() {
+                            setTimeout(() => alert("Message sent!"), 100);
+                        });
+                    </script>
                 </div>
             </div>
         </div>
     </section>
-    <!footer section start >
     <footer>
-        <span>Created By Dwarkesh dubey</a> | <span class="far fa-copyright"></span> 2020 All rights reserved.</span>
+        <span>Created By Dwarkesh dubey | <span class="far fa-copyright"></span> 2020 All rights reserved.</span>
     </footer>
     <script src="script.js"></script>
 </body>
