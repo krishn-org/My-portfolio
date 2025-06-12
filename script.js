@@ -45,7 +45,7 @@ $(document).ready(function(){
     // typing text animation script
     var typed = new Typed(".typing", {
         // strings: ["", "Dwarkesh Dubey ", ],
-        strings: ["", "Web Developer", "Software Engineer", "UI/UX Designer"],
+        strings: ["", "Web Developer", "UI/UX Designer"],
         typeSpeed: 80,
         backSpeed: 40,
         loop: true
